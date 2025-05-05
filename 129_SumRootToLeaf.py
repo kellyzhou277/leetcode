@@ -53,4 +53,5 @@ def test_solution():
     root4 = TreeNode(5)
     print(f"Test 4: {solution.sumNumbers(root4)}")  # Expected: 5
 
-test_solution()
+if __name__ == "__main__":
+    test_solution()
