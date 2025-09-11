@@ -8,6 +8,8 @@ class Solution:
         return False
 
 def test_solution():
+    solution = Solution()
     list1 = [1,2,3,4,1]
-    print("Test 1", Solution().containsDuplicate(list1))
-
+    print(f"Test 1: {solution.containsDuplicate(list1)}")
+if __name__ == "__main__":
+    test_solution()
